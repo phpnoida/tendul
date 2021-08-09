@@ -1,4 +1,5 @@
 const bcrypt = require('bcrypt');
+const slug = require('slug');
 const jwt = require('jsonwebtoken');
 const User = require('../models/user');
 const catchAsync = require('../utils/catchAsync');
